@@ -1,1 +1,31 @@
+PYTHON KURSU 2. DERS ÖDEVİ
 
+# Öğrencileri bir listede sadece ad soyad olacak şekilde tutalım.
+student =["Ali Can","Ahmet Can","Hasan Can","Ah met","Meh met","Sa met"]
+print("student")
+
+# Öğrenci Ekleme
+student.append("Mah mut")
+print("student")
+
+# Öğrenci Silme
+student.remove("Ah met")
+print("student")
+
+# Birden fazla ekleme
+student.extend(["Mah mut","Bi rol"])
+print("student")
+
+# tek tek ekrana yazdırma
+for i in student:
+    print(i)
+
+# Öğrencinin numarasını öğrenme
+#  YAPAMADIM :( 
+
+# Birden fazla öğrenci silmeyi mümkün kılan döngü
+sil = int(input("Silinmesi istenilen adet: "))
+while i < sil:
+     student.pop()
+     i +=1
+print(student)
